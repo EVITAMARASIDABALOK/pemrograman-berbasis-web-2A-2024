@@ -1,0 +1,31 @@
+.container {
+    width: 50%;
+    margin-top: 3px;
+    padding: 20px;
+    border: 3px solid aqua;
+    border-radius: 5px;
+    background-color: pink;
+}
+
+.container p {
+    font-size: 18px;
+}
+
+.container input[type="text"],
+.container input[type="password"],
+.container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.container input[type="submit"] {
+    background-color: deeppink;
+    color:yellow;
+    border: none;
+    cursor: pointer;
+}
+
+.container input[type="submit"]:hover {
+    background-color: pink;
+}
